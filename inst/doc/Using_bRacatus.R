@@ -9,12 +9,6 @@ knitr::opts_chunk$set(
 library(bRacatus)
 
 ## ---- eval = FALSE------------------------------------------------------------
-#  install.packages ("devtools")
-#  library (devtools)
-#  devtools::install_github ("EduardoArle/bRacatus")
-#  library (bRacatus)
-
-## ---- eval = FALSE------------------------------------------------------------
 #  install.packages ("bRacatus")
 #  library (bRacatus)
 
@@ -32,17 +26,8 @@ ref_reg
 ## -----------------------------------------------------------------------------
 plotRefReg (ref_reg)
 
-## ---- warning = FALSE---------------------------------------------------------
-ref_reg_rast <- rasteriseChecklists (ref_reg)
-
-## -----------------------------------------------------------------------------
-occ_ID <- occID (pts)
-
-## -----------------------------------------------------------------------------
-ref_reg_ID <- valueID (ref_reg_rast)
-
 ## ---- eval = FALSE------------------------------------------------------------
-#  signals <- signalCalculation (ref_reg_ID,occ_ID,biogeo = TRUE)
+#  signals <- signalCalculation (ref_reg,pts,biogeo = TRUE)
 
 ## ---- echo = FALSE------------------------------------------------------------
 data(signals)
@@ -58,35 +43,6 @@ plotAccuracy (acc)
 
 ## -----------------------------------------------------------------------------
 plotBiogeoStatus (biogeo)
-
-## -----------------------------------------------------------------------------
-pts <- getOcc ("Senna bicapsularis")   # Running time: ≈ 7s.
-plotOcc (pts)  # Running time: < 1s.
-
-## ---- warning = FALSE---------------------------------------------------------
-ref_reg <- giftRegions ("Senna bicapsularis")   # Running time: ≈ 120s.
-plotRefReg (ref_reg)  # Running time: ≈ 2s.
-
-## ---- warning = FALSE---------------------------------------------------------
-ref_reg_rast <- rasteriseChecklists (ref_reg)   # Running time: ≈ 40s.
-occ_ID <- occID (pts)   # Running time: < 1s.
-ref_reg_ID <- valueID (ref_reg_rast)   # Running time: < 1s.
-
-## ---- eval = FALSE------------------------------------------------------------
-#  signals_2 <- signalCalculation (ref_reg_ID,occ_ID,biogeo = TRUE)   # Running time: ≈ 18s.
-
-## ---- echo = FALSE------------------------------------------------------------
-data(signals_2)
-
-## -----------------------------------------------------------------------------
-acc <- accuracy (signals_2)   # Running time: < 1s.
-biogeo <- biogeoStatus (signals_2)   # Running time: < 1s.
-
-## -----------------------------------------------------------------------------
-plotAccuracy (acc)   # Running time: < 1s.
-
-## -----------------------------------------------------------------------------
-plotBiogeoStatus (biogeo)   # Running time: < 1s.
 
 ## -----------------------------------------------------------------------------
 pts <- getOcc ("Phalanger orientalis")   # Running time: ≈ 1s.
@@ -113,15 +69,10 @@ ref_reg <- Range_Phalanger_orientalis
 range_map_ref_reg <- rangeMaps(ref_reg)  # Running time: < 1s.
 plotRefReg (range_map_ref_reg)  # Running time: < 1s.
 
-## -----------------------------------------------------------------------------
-ref_reg_rast <- rasteriseChecklists (range_map_ref_reg) # Running time: ≈ 10s.
-occ_ID <- occID (pts3)   # Running time: < 1s.
-ref_reg_ID <- valueID (ref_reg_rast)   # Running time: < 1s.
-
 ## ---- eval = FALSE------------------------------------------------------------
-#  signals_3 <- signalCalculation (ref_reg_ID,occ_ID,biogeo = TRUE)   # Running time: ≈ 3s.
+#  signals_3 <- signalCalculation (range_map_ref_reg,pts3,biogeo = TRUE)   # Running time: ≈ 40s.
 
-## -----------------------------------------------------------------------------
+## ---- echo = FALSE------------------------------------------------------------
 data(signals_3)
 
 ## -----------------------------------------------------------------------------
