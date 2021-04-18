@@ -1,6 +1,6 @@
-6e6e24b24f5ca954afdad1f163667f55 *DESCRIPTION
+76d8e3a0d11365825d2e84bfb48e4c7d *DESCRIPTION
 dac291c5ab189dac8d05a77f252f78f9 *NAMESPACE
-46aa02f4c5039496d3c1b3ee5a9d7792 *NEWS.md
+6373cb61e8e2afb69136caf82c18206e *NEWS.md
 4fcc6da6c3028fb95c5845e573006fd4 *R/accuracy.R
 78226052cb93adb079455b9a4511c960 *R/availableCountries.R
 315c45e830c01bb26d6da401974b61de *R/bRacatus-package.R
@@ -10,14 +10,14 @@ a28db1742612866d0260272b2bca74dd *R/countryChecklists.R
 1f0748bd1ed24cfbc9c350965ab1fe67 *R/giftRegions.R
 52e8c038837889de106afb8a6204def6 *R/giveOcc.R
 93e52ce6c35dafeadf25ed3d82a6e778 *R/internal_functions.R
-ab0e7ab76653cd17366593c9d9aaa92a *R/occSpatialPoints.R
+483f3ffd1a92dc8675fd4af631e2b551 *R/occSpatialPoints.R
 b0128db13f735cbb95122cfdec4b0135 *R/plotAccuracy.R
 d85736bfd978488d733ad01238e45422 *R/plotBiogeoStatus.R
 996a95263c2e78c9dda69c93c8cec0fd *R/plotOcc.R
 2edecfcfec05f5019c64d6ceb612239a *R/plotRefReg.R
 0a2adb708712b95747a8bd8b23c2281a *R/rangeMaps.R
-ece79c19d12e5d6e81568e4da1f441db *R/signalCalculation.R
-779d445d7dc4cb2b0db52a7c613d3860 *build/vignette.rds
+389e21500323c17ff6e01b75e6106b03 *R/signalCalculation.R
+eea90f8c518a1e161aa2bc7c77a0cab2 *build/vignette.rds
 f3f10dbcff8fe281f8bed9f553302b9e *data/H_mirandae_sp.RData
 8c0adb4bf5d615e9b505d5a302632e64 *data/ID_raster.RData
 855ad3c8bbac32edc65027701b9a57e2 *data/Model_accuracy.RData
@@ -30,7 +30,7 @@ cf5646d01995b417fdc7d432765aa9f9 *inst/CITATION
 94aafd931f7e517a317030cb30dbe702 *inst/WORDLIST
 462e82cc95874ac9b9f7f1a1d3b8b5c1 *inst/doc/Using_bRacatus.R
 649e8ef206d9978e7b59ebc211d8426a *inst/doc/Using_bRacatus.Rmd
-276c9cadc1687282320f52501eee1a6b *inst/doc/Using_bRacatus.html
+afbafecd06c0b877abfcc0b903930524 *inst/doc/Using_bRacatus.html
 9bc7cd8775eed76fdeef851ac82b8ebe *man/H_mirandae_sp.Rd
 402849a4c726af62f6cb8b6327018506 *man/ID_raster.Rd
 073efa7633ce73485a13a4bc4705e7bf *man/Model_accuracy.Rd
