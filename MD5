@@ -1,14 +1,15 @@
-76d8e3a0d11365825d2e84bfb48e4c7d *DESCRIPTION
-dac291c5ab189dac8d05a77f252f78f9 *NAMESPACE
-6373cb61e8e2afb69136caf82c18206e *NEWS.md
-4fcc6da6c3028fb95c5845e573006fd4 *R/accuracy.R
+436f0a902055816cf548ebfbe2cb3a2d *DESCRIPTION
+51dcde76bdcaba7247ae913a545fbcae *NAMESPACE
+a37f280967ae670e20b0d417a0207c80 *NEWS.md
+75bc78957eec93b508cde81d4cb041cb *R/accuracy.R
 78226052cb93adb079455b9a4511c960 *R/availableCountries.R
 315c45e830c01bb26d6da401974b61de *R/bRacatus-package.R
-d4cffa319527fe78663eea36e89d3e27 *R/biogeoStatus.R
+c549c325fb99e4e3daab6ab8ddc7b479 *R/biogeoStatus.R
 a28db1742612866d0260272b2bca74dd *R/countryChecklists.R
 8a287d61e87737bb184c4e1eb461b882 *R/getOcc.R
-1f0748bd1ed24cfbc9c350965ab1fe67 *R/giftRegions.R
+0a2f1e492f94a6a639324b6cf58db3f3 *R/giftRegions.R
 52e8c038837889de106afb8a6204def6 *R/giveOcc.R
+d91998da7392cfaf19202c1ba93901b6 *R/giveRegions.R
 93e52ce6c35dafeadf25ed3d82a6e778 *R/internal_functions.R
 483f3ffd1a92dc8675fd4af631e2b551 *R/occSpatialPoints.R
 b0128db13f735cbb95122cfdec4b0135 *R/plotAccuracy.R
@@ -16,7 +17,7 @@ d85736bfd978488d733ad01238e45422 *R/plotBiogeoStatus.R
 996a95263c2e78c9dda69c93c8cec0fd *R/plotOcc.R
 2edecfcfec05f5019c64d6ceb612239a *R/plotRefReg.R
 0a2adb708712b95747a8bd8b23c2281a *R/rangeMaps.R
-389e21500323c17ff6e01b75e6106b03 *R/signalCalculation.R
+6d4ef99e09224b4dd4b3e43df64be784 *R/signalCalculation.R
 eea90f8c518a1e161aa2bc7c77a0cab2 *build/vignette.rds
 f3f10dbcff8fe281f8bed9f553302b9e *data/H_mirandae_sp.RData
 8c0adb4bf5d615e9b505d5a302632e64 *data/ID_raster.RData
@@ -30,7 +31,7 @@ cf5646d01995b417fdc7d432765aa9f9 *inst/CITATION
 94aafd931f7e517a317030cb30dbe702 *inst/WORDLIST
 462e82cc95874ac9b9f7f1a1d3b8b5c1 *inst/doc/Using_bRacatus.R
 649e8ef206d9978e7b59ebc211d8426a *inst/doc/Using_bRacatus.Rmd
-afbafecd06c0b877abfcc0b903930524 *inst/doc/Using_bRacatus.html
+10891f76e90659a6d6b087add57d24cb *inst/doc/Using_bRacatus.html
 9bc7cd8775eed76fdeef851ac82b8ebe *man/H_mirandae_sp.Rd
 402849a4c726af62f6cb8b6327018506 *man/ID_raster.Rd
 073efa7633ce73485a13a4bc4705e7bf *man/Model_accuracy.Rd
@@ -43,6 +44,7 @@ efe7ce135fee73109ae6b53129fa5174 *man/Range_Phalanger_orientalis.Rd
 ecc4d9b7ebd75cb7149b9a69279f047c *man/getOcc.Rd
 a310baa08c4dda265169508f1ed82601 *man/giftRegions.Rd
 5dfd9041fa3129c2002283a8ec7c98b4 *man/giveOcc.Rd
+d3b68abb277dfb0d498fea72aa017bb0 *man/giveRegions.Rd
 d957ca59ec7fa129ad85cee0869e3e40 *man/occSpatialPoints.Rd
 1deedf592d80696d936ef3ca98ecd231 *man/plotAccuracy.Rd
 1291780dac326ae5bcf3fe8ecbd8ce92 *man/plotBiogeoStatus.Rd
