@@ -72,12 +72,14 @@ glonafRegions <- function(species,native = "gift",nat_ref_reg = NULL){
     genus,"%20",epithet)))
  
   glonaf_table <- try(suppressWarnings(readRDS(con)),silent =TRUE)
-  
-  close(con)
  
+  close(con)
+  
   if(class(glonaf_table) == "try-error"){
     
-    stop("GloNAF database not accessible due to connection issues.")
+  message("GloNAF database currently not accessible due to issues with the server.
+        Please try again later.")
+    return(NULL)
     
   }else{
     if(nrow(glonaf_table)==0){warning(paste0(

@@ -1,7 +1,7 @@
 Package: bRacatus
 Title: A Method to Estimate the Accuracy and Biogeographical Status of
         Georeferenced Biological Data
-Version: 1.0.5
+Version: 1.0.6
 Language: en-GB
 Authors@R: c(person("Eduardo", "Arlé", email = "eduardo.arle@idiv.de", role = c("aut", "cre")),
              person("Alexander","Zizka",email = "alexaner.zizka@idiv.de", role = "aut"),
@@ -22,7 +22,7 @@ RoxygenNote: 7.1.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-10-21 13:14:41 UTC; ca13kute
+Packaged: 2021-11-09 10:30:29 UTC; ca13kute
 Author: Eduardo Arlé [aut, cre],
   Alexander Zizka [aut],
   Patrick Weigelt [ctb],
@@ -30,4 +30,4 @@ Author: Eduardo Arlé [aut, cre],
   Carsten Meyer [ths]
 Maintainer: Eduardo Arlé <eduardo.arle@idiv.de>
 Repository: CRAN
-Date/Publication: 2021-10-21 13:30:02 UTC
+Date/Publication: 2021-11-09 12:10:02 UTC
