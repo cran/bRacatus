@@ -12,9 +12,13 @@ library(bRacatus)
 #  install.packages ("bRacatus")
 #  library (bRacatus)
 
-## -----------------------------------------------------------------------------
-pts <- getOcc ("Babiana tubulosa")
-head(pts)[,c(1:4)]
+## ---- eval = FALSE------------------------------------------------------------
+#  pts <- getOcc ("Babiana tubulosa")
+#  head (pts)[,c(1:4)]
+
+## ---- echo = FALSE------------------------------------------------------------
+data (pts)
+head (pts)[,c(1:4)]
 
 ## -----------------------------------------------------------------------------
 plotOcc (pts)
@@ -44,14 +48,17 @@ plotAccuracy (acc)
 ## -----------------------------------------------------------------------------
 plotBiogeoStatus (biogeo)
 
-## -----------------------------------------------------------------------------
-pts <- getOcc ("Phalanger orientalis")   # Running time: ≈ 1s.
+## ----  eval = FALSE-----------------------------------------------------------
+#  pts2 <- getOcc ("Phalanger orientalis")   # Running time: ≈ 1s.
+
+## ---- echo = FALSE------------------------------------------------------------
+data (pts2)
 
 ## -----------------------------------------------------------------------------
-pts2 <- data.frame(species=pts$species,
-                       decimalLongitude=pts$decimalLongitude,
-                       decimalLatitude=pts$decimalLatitude,
-                       origin="GBIF")       # Running time: < 1s.
+pts2 <- data.frame(species=pts2$species,
+                     decimalLongitude=pts2$decimalLongitude,
+                     decimalLatitude=pts2$decimalLatitude,
+                     origin="GBIF")       # Running time: < 1s.
 
 extra_points <- data.frame(species="Phalanger orientalis",
                            decimalLongitude=c(125.257,112.765,110.632,112.192,121.130,
