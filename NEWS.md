@@ -1,3 +1,17 @@
+bRacatus 1.1.1 (2024-04-25)
+=========================
+  
+### MAJOR IMPROVEMENTS
+  * Adapted all functions plotting maps to deal with the sf problem of 'edge crosses edge'
+  
+
+bRacatus 1.1.0 (2023-10-25)
+=========================
+  
+### MAJOR IMPROVEMENTS
+  * Adapted all functions using the spatial packages rgdal, rgeos, and maptools to work without these dependencies. 
+  
+
 bRacatus 1.0.11 (2022-12-21)
 =========================
   
